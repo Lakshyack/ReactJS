@@ -21,7 +21,7 @@ export default function About(props) {
             color: 'white',
             backgroundColor: 'black'
            })
-           setBtnext("Enable light Mode")
+           setBtnext("Enable light   Mode")
     }
  }
   return (
