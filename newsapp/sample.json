@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 36,
+    "articles": [
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Anthony Robledo",
+            "title": "Watch as German police, protesters at Tesla factory clash in Berlin - USA TODAY",
+            "description": "Around 800 protesters clashed with police in Germany while trying to break into a Tesla factory. Elon Musk blamed 'left-wing' groups.",
+            "url": "https://www.usatoday.com/story/money/2024/05/10/berlin-tesla-factory-germany-protest-video/73649849007/",
+            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/05/10/USAT/73648095007-tesla-protest.jpg?crop=1918,1078,x0,y0&width=1918&height=1078&format=pjpg&auto=webp",
+            "publishedAt": "2024-05-12T14:33:56Z",
+            "content": "Around 800 protesters clashed with police Friday in Germany while trying to break into a Tesla factory in a wooded area.\r\nThe protest was part of an effort to stop the planned expansion of the factor… [+1449 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Nbcsportsboston.com"
+            },
+            "author": "Justin Leger",
+            "title": "Holiday's 'masterclass' helps C's earn gutsy Game 3 win over Cavs - Yahoo Sports",
+            "description": "Jrue Holiday's teammates raved about his impact after his outstanding Game 3 performance propelled the Celtics to victory over the Cavaliers.",
+            "url": "https://www.nbcsportsboston.com/nba/boston-celtics/jrue-holiday-game-3-masterclass-celtics-cavaliers-2024-playoffs/612232/?partner=yahoo",
+            "urlToImage": "https://media.zenfs.com/en/csnne.com/7be17be9ffd246571bcbd7ac1a08fe72",
+            "publishedAt": "2024-05-12T13:29:25Z",
+            "content": "Holiday's masterclass' helps C's earn gutsy Game 3 win over Cavs originally appeared on NBC Sports Boston\r\nJrue Holiday picked the perfect time to have one of his best games as a Boston Celtic.\r\nThe … [+3365 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Radina Gigova",
+            "title": "Ukraine warns northern front has ‘significantly worsened’ as Russia claims capture of several villages - CNN",
+            "description": "Russia’s Ministry of Defense claims to have captured five villages in the Kharkiv Region on the border with Ukraine, while Ukrainian authorities have disputed this and say the “fighting continues.”",
+            "url": "https://www.cnn.com/2024/05/12/europe/russia-kharkiv-region-offensive-ukraine-intl/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1247591471.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-05-12T13:00:00Z",
+            "content": "Ukraine warned the situation in the northern Kharkiv region has significantly worsened after Russia claimed to have captured several villages in a surprise cross-border offensive.\r\nRussia on Sunday s… [+3334 chars]"
+        },
+        {
+            "source": {
+                "id": "the-hill",
+                "name": "The Hill"
+            },
+            "author": "Lauren Sforza",
+            "title": "Trump heightens attacks against NY prosecutor, Biden at Jersey Shore rally - The Hill",
+            "description": "Former President Trump ramped up his attacks on Manhattan District Attorney Alvin Bragg (D) and President Biden at his latest rally at the Jersey Shore on Saturday.   Trump repeatedly railed against the hush money case being brought against him in New York an…",
+            "url": "https://thehill.com/homenews/campaign/4658913-trump-heightens-attacks-against-ny-prosecutor-biden-at-jersey-shore-rally/",
+            "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2024/05/AP24133009758539.jpg?w=1280",
+            "publishedAt": "2024-05-12T12:40:00Z",
+            "content": "Skip to content\r\nFormer President Trump ramped up his attacks on Manhattan District Attorney Alvin Bragg (D) and President Biden at his latest rally at the Jersey Shore on Saturday.  \r\nTrump repeated… [+2438 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "BOB THOMAS Associated Press, AMY TAXIN Associated Press",
+            "title": "Roger Corman, Hollywood mentor and 'King of the Bs,' dies at 98 - ABC News",
+            "description": "Roger Corman, Hollywood’s “King of the Bs,” has died",
+            "url": "https://abcnews.go.com/US/wireStory/roger-corman-hollywood-mentor-king-bs-dies-98-110140414",
+            "urlToImage": "https://i.abcnewsfe.com/a/cfb27aa8-8693-4475-b602-a692236bc195/wirestory_b85b5fbc13184b5f8dab1e9d4b881645_16x9.jpg?w=1600",
+            "publishedAt": "2024-05-12T12:37:30Z",
+            "content": "LOS ANGELES -- Roger Corman, the King of the Bs who helped turn out such low-budget classics as Little Shop of Horrors and Attack of the Crab Monsters and gave many of Hollywood's most famous actors … [+5770 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Russia blames Ukraine as Belgorod apartments collapse after blast - BBC.com",
+            "description": "At least 19 people have been hurt in Belgorod and there are reports of people trapped in the rubble.",
+            "url": "https://www.bbc.com/news/world-europe-68998913",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4588/production/_133300871_9e36a2b04e02d7bb8508bc1a57db65316c9628c8.jpg",
+            "publishedAt": "2024-05-12T12:31:09Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "UK ban on selling arms to Israel would strengthen Hamas, says Cameron - BBC.com",
+            "description": "Foreign Secretary David Cameron tells the BBC the UK should focus on getting humanitarian aid into Gaza.",
+            "url": "https://www.bbc.com/news/uk-politics-68999212",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1110C/production/_133300996_9b1f6862c9bc7d72bbcc4f1c26fd01ec811ba450.jpg",
+            "publishedAt": "2024-05-12T12:31:09Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Salon"
+            },
+            "author": null,
+            "title": "“You're mother!”: Maya Rudolph leads “SNL” for a Mother's Day-themed episode - Salon",
+            "description": "This kicked off a \"house of Rockefeller\"-themed song and dance number",
+            "url": "https://www.salon.com/2024/05/12/youre-mother-maya-rudolph-leads-snl-for-a-mothers-day-themed-episode/",
+            "urlToImage": "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2024/05/mayarudolph_snl_51224.jpg",
+            "publishedAt": "2024-05-12T12:30:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "politico",
+                "name": "Politico"
+            },
+            "author": "POLITICO",
+            "title": "Experts say gun alone doesn't justify deadly force in fatal shooting of Florida airman - POLITICO",
+            "description": null,
+            "url": "https://www.politico.com/news/2024/05/12/fatal-shooting-florida-gun-00157488",
+            "urlToImage": null,
+            "publishedAt": "2024-05-12T12:22:06Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Stephen Sorace",
+            "title": "3 Atlanta police officers wounded in shooting, suspect dead - Fox News",
+            "description": "Three Atlanta police officers are expected to survive after being shot while responding to a call about an armed individual on Saturday evening.",
+            "url": "https://www.foxnews.com/us/3-atlanta-police-officers-wounded-shooting-suspect-dead",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/05/atlanta-pd-shooting2.jpg",
+            "publishedAt": "2024-05-12T11:58:00Z",
+            "content": "An armed suspect is dead in Atlanta after three police officers were wounded in a shooting on Saturday evening, authorities said.\r\nOfficers responded around 5:15 p.m. to a call about an armed individ… [+1394 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Mike Snider",
+            "title": "Apple apologizes for 'Crush' iPad Pro ad after creators react - USA TODAY",
+            "description": "Apple's recent video ad posted on YouTube and social media promoting its new iPad Pro struck some in the creative community as insensitive.",
+            "url": "https://www.usatoday.com/story/tech/2024/05/10/crush-apple-ipad-ad-apology/73646375007/",
+            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/05/10/USAT/73647563007-applei-pad-prospaceblack-2-up-240507.jpg?crop=1958,1100,x0,y0&width=1958&height=1100&format=pjpg&auto=webp",
+            "publishedAt": "2024-05-12T11:55:45Z",
+            "content": "Apple's latest advertisement crushed it and not in a good way.\r\nThe 1-minute ad meant to highlight the thinness of the new iPad Pro touched a nerve among some in the creative community maybe because … [+4028 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Man who received first pig kidney transplant dies aged 62 - BBC.com",
+            "description": "The US hospital which carried out the operation said Rick Slayman's death was not a result of the transplant.",
+            "url": "https://www.bbc.com/news/articles/c4n1l9g2wn9o",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/52e8/live/30b85380-104c-11ef-aba4-f198b2980420.jpg",
+            "publishedAt": "2024-05-12T11:54:09Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Space.com"
+            },
+            "author": "Meredith Garofalo",
+            "title": "'Extreme' solar storms cook up sweet Mother's Day auroras for Moms everywhere - Space.com",
+            "description": "\"If everything couples right, we could certainly see the sky lit up again.\"",
+            "url": "https://www.space.com/sun-storms-aurora-show-mothers-day-2024",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/yEfPhWnHaXY9LaE5kZxv6P-1200-80.jpg",
+            "publishedAt": "2024-05-12T11:46:00Z",
+            "content": "Want to save all the calories from Mother's Day brunch? You may still be able to \"sweeten\" the holiday with a view of the ramped-up northern lights again tonight (May 12)!\r\nPlasma from a powerful sol… [+3958 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "JENNIFER PELTZ, ERIC TUCKER",
+            "title": "Michael Cohen: A challenging star witness in Donald Trump's hush money trial - The Associated Press",
+            "description": "Michael Cohen is the most central witness for prosecutors in former President Donald Trump's hush money trial. But Trump’s fixer-turned-foe is also as challenging a star witness as they come. He's expected to take the stand on Monday and offer jurors an insid…",
+            "url": "https://apnews.com/article/trump-hush-money-trial-michael-cohen-witness-091b0e50af2738eb261f395e9d658505",
+            "urlToImage": "https://dims.apnews.com/dims4/default/07dc90e/2147483647/strip/true/crop/6402x3601+0+334/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F2d%2F74%2F29e008f67af72510aa7e3f30768f%2F8d4808a87c68461daa413b0c2104f95c",
+            "publishedAt": "2024-05-12T11:21:00Z",
+            "content": "NEW YORK (AP) He once said he would take a bullet for Donald Trump. Now Michael Cohen is prosecutors biggest piece of legal ammunition in the former presidents hush money trial.\r\nBut if Trumps fixer-… [+9628 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Chris Pandolfo",
+            "title": "Top Senate Democrat joins growing chorus of lawmakers breaking from Biden on Israel - Fox News",
+            "description": "Maryland Democratic Senator Ben Cardin joined a growing chorus of centrist, pro-Israel Democrats who have voiced disagreement with President Biden's decision to withhold aid.",
+            "url": "https://www.foxnews.com/politics/top-senate-democrat-joins-growing-chorus-lawmakers-breaking-biden-israel",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/05/biden-cardin-split.jpg",
+            "publishedAt": "2024-05-12T11:20:00Z",
+            "content": "Senate Foreign Relations Committee chairman Sen. Ben Cardin, D-Md., said Friday that military aid to Israel should continue in a departure from the White House position.\r\nIn a statement, Cardin said … [+6519 chars]"
+        },
+        {
+            "source": {
+                "id": "fortune",
+                "name": "Fortune"
+            },
+            "author": "Sasha Rogelberg",
+            "title": "Viking founder Torstein Hagen on the luxury cruise line specifically for baby boomers - Fortune",
+            "description": "Torstein Hagen, who founded Viking 27 years ago, said he owes the company’s success in part to its “cookie cutter” philosophy.",
+            "url": "https://fortune.com/2024/05/12/viking-cruises-torstein-hagen-luxury-baby-boomers/",
+            "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2024/05/GettyImages-802694328-e1715371275644.jpg?resize=1200,600",
+            "publishedAt": "2024-05-12T11:17:00Z",
+            "content": "A veteran cruise attendee at just 24 years old, Julia Wilcox is used to her inbox flooding with promotional emails from cruise lines courting loyal customers. But Wilcox, who vlogs her cruise experie… [+7039 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Athletic"
+            },
+            "author": "Chris Strauss",
+            "title": "Pirates prospect Paul Skenes allows 3 runs, shows dominant stuff in hyped big-league debut - The Athletic",
+            "description": "Skenes went four innings, striking out seven Cubs hitters and allowing three runs, six hits and two walks.",
+            "url": "https://theathletic.com/5486253/2024/05/11/paul-skenes-debut-prospect-pirates/",
+            "urlToImage": "https://cdn.theathletic.com/app/uploads/2024/05/11172324/GettyImages-2151967221-scaled.jpg",
+            "publishedAt": "2024-05-12T11:04:22Z",
+            "content": "PITTSBURGH About 40 minutes before the first pitch of Saturdays game between the Chicago Cubs and Pittsburgh Pirates, the overcast skies darkening PNC Park suddenly parted, allowing the first moments… [+7091 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Undark Magazine"
+            },
+            "author": "Sarah Scoles, Undark",
+            "title": "In the race for space metals, companies hope to cash in - Ars Technica",
+            "description": "Mining asteroids could reduce the burden on Earth’s resources. Will it live up to its promise?",
+            "url": "https://undark.org/2024/05/08/asteroid-mining-space-metals/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/1-pia24834-760x380.jpg",
+            "publishedAt": "2024-05-12T11:00:17Z",
+            "content": "Enlarge/ An illustration depicts a NASA spacecraft approaching the metal-rich asteroid Psyche. Though there are no plans to mine Psyche, such asteroids are being eyed for their valuable resources\r\n15… [+5662 chars]"
+        }
+    ]
+}
