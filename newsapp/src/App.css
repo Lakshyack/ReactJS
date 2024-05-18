@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.thick-line {
+  border: none;            /* Removes the default border */
+  height: 5px;             /* Sets the thickness of the line */
+  background-color: black; /* Sets the color of the line */
+margin: 0;        /* Adds some space around the line */
+}

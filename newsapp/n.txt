@@ -1,0 +1,6 @@
+<Route exact path="/business" element={<News mode={this.state.mode}  category="business" country="in" />}/>
+<Route exact path="/entertainment" element={<News mode={this.state.mode}  category="ntertainment" country="in" />}/>
+<Route exact path="/generalhealth" element={<News mode={this.state.mode}  category="eneralhealth" country="in" />}/>
+<Route exact path="/sciences" element={<News mode={this.state.mode}  category="    sciences" country="in" />}/>
+<Route exact path="/sport" element={<News mode={this.state.mode}  category="sport" country="in" />}/>
+<Route exact path="/technologys" element={<News mode={this.state.mode}  category="echnologys" country="in" />}/>
