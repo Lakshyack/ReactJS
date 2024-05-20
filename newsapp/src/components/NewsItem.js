@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class NewsItem extends Component {
 
   render() {
-    let { title, description, imageUrl, newsUrl,mode } = this.props;
+    let { title, description, imageUrl, newsUrl,mode,author,date } = this.props;
     return (
       <>
         <div className="card my-3" >
@@ -19,6 +19,7 @@ export default class NewsItem extends Component {
           <div className="card-body" style={{backgroundColor: mode === 'dark'? 'black' : 'white',color: mode === 'dark'? 'white' : 'black'}}>
             <h5 className="card-title">{title}..</h5>
             <p className="card-text">{description}...</p>
+            <p className="card-text"><small className="text-body-secondary">By {!author? "Unknown" : author } on {new Date(date).toGMTString()}</small></p>
             <div className="text-center">
 
             <a href={newsUrl} target='blank' className={`btn btn-sm btn-${mode === 'dark'? 'primary' : 'outline-primary'}`}>Read More</a>
