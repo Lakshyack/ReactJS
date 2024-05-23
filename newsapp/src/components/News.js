@@ -102,11 +102,9 @@ export default class News extends Component {
     this.setState({
       articles: this.state.articles.concat(parsedData.articles),
       totalResults: parsedData.totalResults,
- 
+ loading: true
       
     });
-
-    
   };
   
 
@@ -115,22 +113,23 @@ export default class News extends Component {
     let { articles } = this.state;
 
     if (articles.length === 0) {
-      return <div>Loading...</div>; // Or any loading indicator
+      return <Spinner/>; // Or any loading indicator
     }
 
     return (
       <>
         <div className="container my-3">
-          <h2 className="text-center">NewsPigeon - Platform for News</h2>
-          this.state.
+          <h2 className="text-center">NewsPigeon -  Top {this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1)} Headlines</h2>
+          <h2 className="text-center"><strong>NewsPigeon -  Top {this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1)} Headlines</strong></h2>
+
+       
           <InfiniteScroll
           dataLength={this.state.articles.length}
           next={this.fetchMoreData}
           hasMore={this.state.articles.length !== this.state.totalResults}
-          loader={<Spinner/>}
+          
         >
           <div className="container">
-      
           <div className="row">
             {articles.map((element) => {
               return (
@@ -145,9 +144,6 @@ export default class News extends Component {
                     newsUrl={element.url}
                   />
                 </div>
-                      
-
-            
               )
             })}
           </div>

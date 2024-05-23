@@ -39,7 +39,7 @@ function App() {
       <div className="container">
         <Routes>
           {/* use exat with beacuse of same input item or components */}
-          <Route exact path="/about" element={<About mode={mode} toggleMode={toggleMode} />} />
+          <Route exact path="/about" element={<About  mode={mode} toggleMode={toggleMode} />} />
           <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Enter The Text To Analyze" mode={mode} />} />
         </Routes>
       </div>

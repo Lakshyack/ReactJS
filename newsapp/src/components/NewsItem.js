@@ -16,7 +16,7 @@ export default class NewsItem extends Component {
     onError={(e) => e.target.src = "https://cdn.pixabay.com/photo/2023/12/14/12/51/ai-generated-8448864_1280.png"} 
 />
 
-          <div className="card-body" style={{backgroundColor: mode === 'dark'? 'black' : 'white',color: mode === 'dark'? 'white' : 'black'}}>
+          <div className="card-body" style={{backgroundColor: mode === 'dark'? '#202020' : 'white',color: mode === 'dark'? 'white' : 'black'}}>
             <h5 className="card-title">{title}..</h5>
             <p className="card-text">{description}...</p>
             <p className="card-text"><small className="text-body-secondary">By {!author? "Unknown" : author } on {new Date(date).toGMTString()}</small></p>

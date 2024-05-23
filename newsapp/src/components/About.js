@@ -28,7 +28,7 @@ export default function About(props) {
 //     }
 //  }
   return (
-    <div className="container"  style={{ marginTop: "63px" }}>
+    <div className="container"  style={{ marginTop: "63px"}}>
       <h1
         className="my-3"
         style={{ color: props.mode === "dark" ? "white" : "#042743" }}
@@ -50,7 +50,7 @@ export default function About(props) {
               aria-controls="collapseOne"
             >
              About TextUtils
-              <strong>Analyze Your text </strong>
+              {/* <strong>Analyze Your text </strong> */}
             </button>
           </h2>
           <div
@@ -79,7 +79,7 @@ export default function About(props) {
               aria-controls="collapseTwo"
             >
             About Developer
-              <strong>Free to use </strong>
+              {/* <strong>Free to use </strong> */}
             </button>
           </h2>
           <div
@@ -108,7 +108,7 @@ export default function About(props) {
               aria-controls="collapseThree"
             >
               Deployment
-              <strong>Browser Compatible </strong>
+              {/* <strong>Browser Compatible </strong> */}
             </button>
           </h2>
           <div
