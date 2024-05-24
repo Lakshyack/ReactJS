@@ -49,7 +49,7 @@ export default function About(props) {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-             About TextUtils
+             About Application
               {/* <strong>Analyze Your text </strong> */}
             </button>
           </h2>
@@ -62,7 +62,8 @@ export default function About(props) {
             <div className="accordion-body" 
              style={{color : props.mode === 'dark'? 'white' : '#6191b0' ,backgroundColor: props.mode === 'dark' ? '#202020' : 'white'}}
             >
-              This application is developed using React.js and offers various features such as converting text to uppercase and lowercase. It also provides two theme options: dark and light. We invite you to use and enjoy the functionality of this application.
+             Welcome to our React.js application! It's a dynamic news app that delivers daily updates on the latest news. With a wide range of functionalities, you can explore news based on categories that interest you. Plus, we've added a convenient feature to switch between dark and light themes, enhancing your reading experience. Additionally, TextUtils provides an extra feature where you can easily convert text to uppercase, lowercase, and clear extra spaces, making it a versatile tool for text manipulation. Whether you're exploring the latest news or fine-tuning your text, this app has everything you need in one convenient package. Feel free to dive in, explore, and enjoy all the features this app has to offer!"
+
             </div>
           </div>
         </div>

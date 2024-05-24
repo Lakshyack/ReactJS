@@ -5,6 +5,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Spinner from "./Spinner"
 
 
+
 export default class News extends Component {
   static defaultProps = {
     country: 'in',
@@ -28,7 +29,7 @@ export default class News extends Component {
     };
   }
   async updateNews () {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=78f041b112a94a118be18b741982dd68&page=${this.state.page}&pageSize=9`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page}&pageSize=9`;
     this.setState({loading : true});
     let data = await fetch(url);
     let parsedData = await data.json()
@@ -42,7 +43,7 @@ export default class News extends Component {
 
   async componentDidMount() {
     try {
-      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=78f041b112a94a118be18b741982dd68&page=${this.state.page}&pageSize=9`;
+      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page}&pageSize=9`;
       let data = await fetch(url);
       let parsedData = await data.json();
 
@@ -57,7 +58,7 @@ export default class News extends Component {
 
   previousPage = async () => {
     try {
-      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=78f041b112a94a118be18b741982dd68&page=${this.state.page - 1}&pageSize=9`;
+      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page - 1}&pageSize=9`;
       let data = await fetch(url);
       let parsedData = await data.json();
 
@@ -77,7 +78,7 @@ export default class News extends Component {
         return;
       }
 
-      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=78f041b112a94a118be18b741982dd68&page=${this.state.page + 1}&pageSize=9`;
+      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page + 1}&pageSize=9`;
       let data = await fetch(url);
       let parsedData = await data.json();
 
@@ -95,7 +96,7 @@ export default class News extends Component {
     await new Promise(resolve => setTimeout(resolve, 500));
   
     this.setState({ page: this.state.page + 1 });
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=78f041b112a94a118be18b741982dd68&page=${this.state.page}&pageSize=9`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page}&pageSize=9`;
 
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -106,7 +107,8 @@ export default class News extends Component {
       
     });
   };
-  
+
+
 
   render() {
     let { mode } = this.props;
@@ -118,8 +120,11 @@ export default class News extends Component {
 
     return (
       <>
-        <div className="container my-3">
-          <h2 className="text-center">NewsPigeon -  Top {this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1)} Headlines</h2>
+        <div className="container" style={{marginTop:"10px"}}>
+        {/* <span style={{ height:"40px",width:"45px", marginTop:'20px'}} class="badge rounded-pill text-bg-primary"  id="hoverSpan"> <img style={{left:"20px", width: "30px", height: "30px", borderRadius: '30%', border:"2px solid black" }} src={svg} alt="" />
+        <div id="additionalText" class="hiddenText">Additional text here</div>
+       </span> */}
+
           <h2 className="text-center"><strong>NewsPigeon -  Top {this.props.category.charAt(0).toUpperCase() + this.props.category.slice(1)} Headlines</strong></h2>
 
        

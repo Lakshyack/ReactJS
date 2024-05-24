@@ -26,7 +26,6 @@ export default function TextForm(props) {
   const handleOnChange = (event) => {
     setText(event.target.value);
   };
-  
   const [text, setText] = useState('');
 
   return (
@@ -34,8 +33,9 @@ export default function TextForm(props) {
       <div className='container text-center text-dark'>
         <div className='mb-1'>
           <h1 className='my-5'>
-            <b style={{ color: props.mode === 'dark' ? '#202020' : 'white' }}>
-              {props.heading}-{' '}
+            <b style={{ color: props.mode === 'dark' ? 'white' : '#202020' }}>
+           Enter Text Here To Analyze
+
             </b>
           </h1>
           <textarea
@@ -49,7 +49,7 @@ export default function TextForm(props) {
             }}
             className='form-control'
             cols='10'
-            rows='10'></textarea>
+            rows='13'></textarea>
         </div>
         <button
           disabled={text.length === 0}

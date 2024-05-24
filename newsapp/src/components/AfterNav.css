@@ -1,0 +1,5 @@
+.afternav:hover + #textHover{
+    width: 180px;
+    cursor: pointer;
+    display: inline-block;
+  }

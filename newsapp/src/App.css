@@ -42,3 +42,10 @@
   background-color: black; /* Sets the color of the line */
 margin: 0;        /* Adds some space around the line */
 }
+.hiddenText {
+  display: none;
+}
+
+#hoverSpan:hover + #additionalText {
+  display: inline-block;
+}
