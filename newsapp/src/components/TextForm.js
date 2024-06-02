@@ -1,42 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import PropTypes from 'prop-types';
 
+
 export default function TextForm(props) {
+  const [text, setText] = useState('');
+
+ 
   const handleUpClick = () => {
     let newText = text.toUpperCase();
     setText(newText);
-    props.showAlert('Converted to Uppercase!', 'success');
   };
+
   const handleLoClick = () => {
     let newText = text.toLowerCase();
     setText(newText);
-    props.showAlert('Converted to Lowercase!', 'success');
   };
+
   const handleClearClick = () => {
     let newText = '';
     setText(newText);
-    props.showAlert('Done!', 'success');
   };
+
   const handleClearSpacesClick = () => {
     let newText = text.replace(/\s+/g, ' ').trim(); // Removes extra spaces
     setText(newText);
-    props.showAlert('Extra spaces removed!', 'success');
   };
 
   const handleOnChange = (event) => {
     setText(event.target.value);
   };
-  const [text, setText] = useState('');
 
   return (
     <>
       <div className='container text-center text-dark'>
         <div className='mb-1'>
           <h1 className='my-5'>
-            <b style={{ color: props.mode === 'dark' ? 'white' : '#202020' }}>
-           Enter Text Here To Analyze
-
-            </b>
+            <span id='my-text234' style={{ color: props.mode === 'dark' ? 'white' : '#202020' }}>
+            Enter Your Text To Analyze -
+            </span>
           </h1>
           <textarea
             name=''
