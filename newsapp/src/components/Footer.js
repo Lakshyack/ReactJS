@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import first from './img/first copy.png'
 import Insta from './img/Insta.jsx'
 import Twitter from './img/Twitter.jsx'
